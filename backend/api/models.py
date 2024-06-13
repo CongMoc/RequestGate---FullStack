@@ -1,5 +1,5 @@
 from django.db import models
-from django.contrib.auth.models import User as AuthUser
+from django.contrib.auth.models import User
 
 class Department(models.Model):
     name = models.CharField(max_length=250)
@@ -15,7 +15,7 @@ class Role(models.Model):
         return self.role
 
 class UserProfile(models.Model):
-    user = models.OneToOneField(AuthUser, on_delete=models.CASCADE, related_name='profile')
+    user = models.OneToOneField(User, on_delete=models.CASCADE, related_name='profile')
     nickname = models.CharField(max_length=100)
     fullname = models.CharField(max_length=100)
     address = models.CharField(max_length=250)

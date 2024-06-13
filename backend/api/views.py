@@ -10,8 +10,8 @@ from rest_framework.decorators import action
 from rest_framework.response import Response
 from rest_framework import status, viewsets
 from . import serializers
-from .serializers import UserProfileSerializer
-from .models import UserProfile, Department, Role
+from .serializers import UserProfileSerializer, RequestSerializer, CommentSerializer
+from .models import UserProfile, Department, Role, Request, Comment
 from rest_framework.decorators import api_view
 
 
@@ -26,6 +26,14 @@ class UserProfileUpdateView(generics.UpdateAPIView):
     serializer_class = UserProfileSerializer
     lookup_field = 'user__username'  # Assuming each User has one UserProfile
 
+
+class RequestViewSet(viewsets.ModelViewSet):
+    queryset = Request.objects.all()
+    serializer_class = RequestSerializer
+
+class CommentViewSet(viewsets.ModelViewSet):
+    queryset = Comment.objects.all()
+    serializer_class = CommentSerializer
 
 class UserProfileViewSet(viewsets.ModelViewSet):
     queryset = UserProfile.objects.all()
