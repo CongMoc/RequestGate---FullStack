@@ -1,0 +1,1135 @@
+.contentAdmin {
+  width: 80%;
+  height: 85%;
+  margin-left: 10%;
+  display: block;
+}
+.contentAdmin h3 {
+  margin: 0.6vh 0vh;
+  font-size: 1rem;
+}
+.areaAdmin {
+  height: 5vh;
+  width: 10%;
+  display: flex;
+  column-gap: 0.4rem;
+  margin: 4% 45% 0%;
+  justify-content: center;
+}
+
+.areaAdmin .company {
+  width: 30%;
+  height: 80%;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.areaAdmin .company img {
+  padding: 1px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.areaAdmin .area {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 10%;
+  color: black;
+}
+
+.areaAdmin img {
+  margin-top: 10%;
+}
+
+.functionAdmin {
+  width: 100%;
+  height: 18vh;
+  background-color: #e5e5e5;
+}
+
+.functionDetail {
+  width: 33.33%;
+  height: 100%;
+  display: flex;
+  float: left;
+  border-top: 1px solid #cecece;
+  border-left: 1px solid #cecece;
+  border-bottom: 1px solid #cecece;
+  padding: 0.8rem 1rem;
+}
+.functionDetail:last-child {
+  border-right: 1px solid #cecece;
+}
+
+.functionDetail:first-child {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.functionDetail:last-child {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.project {
+  width: 18%;
+  height: 50%;
+  background-color: #d0d0d0;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.project img {
+  width: 75%;
+  margin: 13%;
+}
+
+.caption {
+  width: 78%;
+  height: 90%;
+  margin-left: 3%;
+  cursor: pointer;
+}
+
+.caption h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.6rem;
+}
+
+.caption p {
+  font-size: 0.8rem;
+  margin-bottom: 12px;
+}
+
+.user {
+  background-color: #94caac;
+}
+
+.user img {
+  width: 65%;
+  margin: 17%;
+}
+
+.add {
+  background-color: #fcfade;
+}
+
+.caption a {
+  background-color: #2c9a7a;
+  padding: 5px 12px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  color: white;
+}
+
+.grid-content {
+  width: 100%;
+  height: 70vh;
+  margin-top: 4vh;
+  display: flex;
+  column-gap: 2%;
+}
+
+.grid-content div {
+  width: 50%;
+}
+
+.grid-content .option {
+  width: 100%;
+  height: 5%;
+}
+
+.grid-content .option:not(:first-of-type) {
+  margin-top: 2%;
+}
+
+.grid-content .option h1,
+.grid-content .option i {
+  font-size: 1rem;
+  float: left;
+}
+
+.grid-content .option h1 {
+  padding: 7px;
+}
+.grid-content .option i {
+  font-size: 2rem;
+  color: #898989;
+  cursor: pointer;
+  padding: 0.2rem 0;
+}
+
+.grid-content .option div {
+  float: right;
+  margin-left: 0.4rem;
+  background-color: white;
+  border: 1px solid #bbbbc3;
+  cursor: pointer;
+}
+
+.grid-content .option .calendar {
+  width: 21%;
+}
+
+.grid-content .option .batch {
+  width: 18%;
+}
+
+.grid-content .option .gantt {
+  width: 18%;
+}
+
+.grid-content .option div:not(.button) {
+  height: 100%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.grid-content .option div p {
+  font-weight: 500;
+  color: #898989;
+  padding: 7px 7px 0px 0px;
+  font-size: 0.9rem;
+}
+
+.grid-content .option .button {
+  height: 100%;
+  width: 5.5%;
+  border-radius: 50%;
+}
+
+.grid-content .option .button:hover {
+  background-color: #94CAAC;
+}
+
+.grid-content .option .button:hover i {
+  color: white;
+}
+
+.grid-content .option .button i {
+  padding: 0.2rem;
+  font-size: 2rem;
+}
+
+.grid-content .option div img {
+  height: 60%;
+  width: 60%;
+  margin: 20%;
+}
+.grid-content .option div:not(.button) i {
+  padding: 0.4rem 0.2rem;
+  font-size: 1.5rem;
+}
+
+.grid-content .optionBar {
+  width: 100%;
+  height: 8%;
+  margin-top: 1%;
+  display: flex;
+  background-color: white;
+  border: 1px solid #bbbbc3;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 1s;
+}
+.grid-content .optionBar .company {
+  width: 5%;
+}
+
+.grid-content .optionBar .company img {
+  height: 90%;
+}
+
+.grid-content .optionBar h1 {
+  font-size: 1rem;
+  margin-top: 3px;
+}
+
+.grid-content .optionBar p {
+  font-size: 0.8rem;
+}
+
+.grid-content .Issues {
+  width: 100%;
+  height: 35%;
+  margin-top: 1%;
+  border: 1px solid #bbbbc3;
+  background-color: white;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.grid-content .Issues .event {
+  width: 100%;
+  height: 30%;
+  padding: 1%;
+  background-color: #f6f6f6;
+  display: block;
+}
+
+.grid-content .Issues .event div {
+  width: 100%;
+  display: flex;
+  margin: 2px 0px;
+}
+.grid-content .Issues .event div label {
+  font-weight: 500;
+}
+
+.grid-content .Issues .event div a {
+  margin-left: 3%;
+  padding: 0.2rem 0.6rem;
+  color: black;
+  font-weight: 400;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.grid-content .Issues .navbarIssues {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  padding: 1% 0%;
+  color: #2c9a7a;
+  border-top: 1px solid #bbbbc3;
+  border-bottom: 1px solid #bbbbc3;
+}
+.grid-content .Issues .navbarIssues p {
+  text-align: center;
+  font-size: 0.8rem;
+}
+.grid-content .Issues .listIssues {
+  width: 100%;
+  height: 55%;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+.listIssues .detailListIssue {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+.listIssues .detailListIssue :not(.detailListIssue:last-of-type) {
+  border-bottom: 1px solid #a2a2a2;
+}
+
+.listIssues .detailListIssue p {
+  width: 20%;
+  height: auto;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #a2a2a2;
+  overflow: hidden;
+}
+
+.grid-content .backlogNews {
+  width: 100%;
+  height: 30%;
+  border-top: 1px solid #bbbbc3;
+  overflow: hidden;
+  transition: 1s;
+}
+.grid-content .backlogNews div {
+  width: 100%;
+  height: 33.33%;
+  padding: 1% 2%;
+  border-bottom: 1px solid #bbbbc3;
+}
+
+.grid-content .backlogNews div h1 {
+  font-size: 1rem;
+  color: #158c76;
+  font-weight: 500;
+  cursor: pointer;
+}
+.grid-content .backlogNews div h1 img {
+  margin-left: 1%;
+  width: 2%;
+}
+
+.grid-content .backlogNews div p {
+  font-size: 0.8rem;
+  color: #a2a2a2;
+  cursor: pointer;
+}
+
+.grid-content .recent .option p {
+  float: right;
+  padding: 7px 8px 0px 0px;
+}
+.grid-content .recent .option div {
+  width: 18%;
+  position: relative;
+  display: inline-block;
+}
+
+.grid-content .recent .option div:hover {
+  background-color: #94CAAC;
+}
+
+.grid-content .recent .option div:hover .dropdown {
+  display: block;
+} 
+.grid-content .recent .option div:hover p {
+  color: white;
+}
+
+.grid-content .recent .option div img {
+  width: 15%;
+  height: 60%;
+  margin: 5% 0%;
+}
+
+.grid-content .recent .option div .dropdown {
+  overflow: hidden;
+  display: none;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  top: 110%;
+  height: 20vh;
+  border-radius: 5px;
+  padding: 0;
+  border: 1px solid #898989;
+  background-color: white;
+}
+
+.grid-content .recent .option div .dropdown a {
+  height: 20%;
+  width: 100%;
+  padding: 0.4rem;
+  display: block;
+  color: #898989;
+}
+
+.grid-content .recent .option div .dropdown :not(a:last-of-type) {
+  border-bottom: 1px solid #a2a2a2;
+}
+
+.grid-content .recent .option div .dropdown a:hover {
+  background-color: #94CAAC;
+  color: white;
+}
+
+.grid-content .recent .inforRecent {
+  width: 100%;
+  height: 25%;
+  margin-top: 1%;
+  cursor: pointer;
+  transition: 1s;
+  overflow: hidden;
+}
+
+.grid-content .recent .inforRecent .dateRecent {
+  width: 100%;
+  height: 25%;
+  background-color: white;
+  padding: 0.6rem 1rem;
+  border: 1px solid #bbbbc3;
+}
+
+.grid-content .recent .inforRecent .dateRecent p {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.grid-content .recent .inforRecent .detailRecent {
+  width: 100%;
+  height: 75%;
+  background-color: #fcfade;
+  border: 1px solid #bbbbc3;
+}
+
+.grid-content .recent .inforRecent .detailRecent .memberEdit {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  padding: 1%;
+  column-gap: 0.4rem;
+}
+
+.grid-content .recent .inforRecent .detailRecent .memberEdit h3 {
+  width: 70%;
+  font-size: 0.8rem;
+}
+
+.grid-content .recent .inforRecent .detailRecent .memberEdit h3 a {
+  padding: 0.2rem 0.4rem;
+  background-color: red;
+  border-radius: 20px;
+  color: white;
+}
+.grid-content .recent .inforRecent .detailRecent .memberEdit p {
+  width: 20%;
+  font-size: 0.8rem;
+  padding-top: 0.4rem;
+  text-align: right;
+}
+
+.grid-content .recent .inforRecent .detailRecent .detailEdit {
+  width: 100%;
+  display: block;
+}
+
+.grid-content .recent .inforRecent .detailRecent .detailEdit div {
+  width: 80%;
+  display: flex;
+  margin-left: 10%;
+}
+
+.grid-content .recent .inforRecent .detailRecent .detailEdit div img {
+  margin: 5px;
+}
+.grid-content .recent .inforRecent .detailRecent .detailEdit div h3 {
+  font-size: 0.7rem;
+}
+
+.grid-content .recent .inforRecent .detailRecent .detailEdit div p {
+  font-size: 0.8rem;
+  padding: 0.3rem 0.2rem;
+}
+
+/* Responsive */
+/*
+
+@media screen and (max-width: 2150px) {
+  .grid-content .option div p {
+    padding: 0.2rem 0;
+    font-size: 1rem;
+  }
+  .grid-content .option .gantt {
+    width: 16%;
+  }
+  .grid-content .option .batch {
+    width: 16%;
+  }
+  .grid-content .option .calendar {
+    width: 20%;
+  }
+  .grid-content .option div:not(.button) i {
+    margin-top: 0.1rem;
+  }
+  .grid-content .option .button i {
+    font-size: 1.8rem;
+    padding: 0.3rem 0.2rem;
+  }
+}
+
+@media screen and (max-width: 1950px) {
+  .grid-content .option div p {
+    padding: 0.3rem 0;
+    font-size: 0.8rem;
+  }
+  .grid-content .option .button i {
+    padding: 0.15rem 0.1rem;
+  }
+  .grid-content .option div:not(.button) i {
+    margin-top: 0;
+    padding: 0.2rem 0.1rem;
+  }
+  .grid-content .option .gantt {
+    width: 14%;
+    padding: 0;
+  }
+  .grid-content .option .batch {
+    width: 15%;
+  }
+  .grid-content .option .calendar {
+    width: 18%;
+  }
+}
+
+@media screen and (max-width: 1550px) and (max-height: 750px) {
+  .areaAdmin {
+    margin: 2% 45% 0;
+  }
+  .contentAdmin h3 {
+    font-size: 0.8rem;
+  }
+  .grid-content .option .button i {
+    padding: 0;
+    font-size: 1.6rem;
+  }
+  .grid-content .optionBar h1 {
+    font-size: 0.8rem;
+  }
+  .grid-content .optionBar p {
+    font-size: 0.7rem;
+  }
+  .grid-content .option div p {
+    padding: 0.2rem;
+  }
+  .grid-content .option .gantt {
+    width: 18%;
+  }
+  .grid-content .option .batch {
+    width: 20%;
+  }
+  .grid-content .option .calendar {
+    width: 22%;
+  }
+  .grid-content .option div:not(.button) i {
+    font-size: 1rem;
+  }
+  .grid-content .Issues .event {
+    height: 50%;
+  }
+  .grid-content .Issues .event div label {
+    font-size: 0.8rem;
+  }
+  .grid-content .Issues .listIssues {
+    font-size: 0.8rem;
+    padding-top: 0.4rem;
+  }
+  .grid-content .backlogNews div {
+    height: 33%;
+    padding: 0.1rem 0.6rem;
+  }
+  .grid-content .backlogNews div h1 {
+    font-size: 0.8rem;
+  }
+  .grid-content .backlogNews div p {
+    font-size: 0.7rem;
+  }
+  .grid-content .option h1 {
+    font-size: 0.8rem;
+  }
+  .grid-content .recent .option div {
+    width: 18%;
+  }
+  .grid-content .recent .option div img {
+    margin: 0.3rem 0 0 0rem;
+    padding: 0;
+  }
+  .grid-content .recent .option div p {
+    padding: 0.2rem 0.1rem;
+    text-align: left;
+  }
+  .contentAdmin .detailRecent .memberEdit img {
+    width: 5%;
+  }
+  .grid-content .recent .inforRecent .detailRecent .memberEdit h3 {
+    font-size: 0.7rem;
+  }
+  .grid-content .recent .inforRecent .detailRecent .detailEdit div p {
+    font-size: 0.7rem;
+  }
+  .grid-content .recent .inforRecent .dateRecent p {
+    font-size: 0.8rem;
+  }
+  .grid-content .recent .inforRecent .detailRecent .memberEdit p {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .areaAdmin {
+    width: 20%;
+    margin: 3% 40%;
+  }
+  .areaAdmin .company {
+    width: 25%;
+    height: 100%;
+    padding: 3% 5%;
+  }
+  .project {
+    width: 20%;
+    height: 50%;
+  }
+
+  .grid-content .option .button {
+    width: 6%;
+  }
+  .grid-content .option .button i {
+    padding: 0.2rem 0.15rem;
+  }
+
+  .grid-content .option .gantt {
+    width: 20%;
+  }
+  .grid-content .option .batch {
+    width: 21%;
+  }
+  .grid-content .option .calendar {
+    width: 25%;
+  }
+  .grid-content .recent .option :not(.dropdown) div {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+  }
+
+}
+
+@media screen and (max-width: 1450px) {
+  .project {
+    width: 20%;
+    height: 45%;
+  }
+  .grid-content .option .gantt p {
+    font-size: 0.75rem;
+  }
+  .grid-content .option .batch {
+    width: 22%;
+  }
+  .grid-content .option .batch p {
+    font-size: 0.75rem;
+  }
+  .grid-content .option .calendar p {
+    font-size: 0.75rem;
+  }
+  .grid-content .recent .option div {
+    display: flex;
+    width: 22%;
+    justify-content: center;
+  }
+  .grid-content .recent .option div p {
+    text-align: center;
+  }
+}
+*/
+
+/* Laptop 15'6 inch */
+
+/*
+@media screen and (max-width: 1370px) and (max-height: 768px) {
+  .contentAdmin {
+    width: 90%;
+    margin: 0rem 5%;
+  }
+  .caption h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  .caption p {
+    font-size: 0.7rem;
+    margin-bottom: 5px;
+  }
+
+  .contentAdmin h3 {
+    font-size: 0.8rem;
+  }
+
+  .project {
+    width: 20%;
+    height: 85%;
+  }
+  .grid-content .option h1 {
+    font-size: 0.8rem;
+  }
+  .grid-content .option .button {
+    height: 100%;
+    width: 4%;
+  }
+  .grid-content .option .button i {
+    padding: 0rem;
+    font-size: 1.3rem;
+  }
+
+  .areaAdmin {
+    width: 30%;
+    margin: 0.5% 35% 1%;
+  }
+  .areaAdmin .company {
+    width: 13%;
+    height: 100%;
+    padding: 1% 2%;
+    margin: 0;
+  }
+
+  .areaAdmin .area {
+    margin-top: 2%;
+  }
+
+  .areaAdmin img {
+    margin-top: 2%;
+  }
+
+  .grid-content .optionBar h1 {
+    font-size: 0.7rem;
+  }
+  .grid-content .optionBar p {
+    font-size: 0.6rem;
+  }
+  .grid-content .optionBar .company {
+    height: 100%;
+    margin: 0;
+    width: 7%;
+  }
+
+  .grid-content .option .gantt,
+  .grid-content .option .batch,
+  .grid-content .option .calendar {
+    width: 4%;
+  }
+  .grid-content .option .gantt p,
+  .grid-content .option .batch p,
+  .grid-content .option .calendar p {
+    display: none;
+  }
+  .grid-content .option div:not(.button) i {
+    font-size: 1rem;
+    padding: 0.1rem 0.15rem;
+  }
+
+  .grid-content .Issues .event {
+    padding: 0;
+    height: 50%;
+  }
+
+  .grid-content .Issues .event div label {
+    font-size: 0.7rem;
+  }
+
+  .grid-content .Issues .event div a {
+    font-size: 0.7rem;
+  }
+  .grid-content .Issues .navbarIssues p {
+    font-size: 0.7rem;
+  }
+
+  .grid-content .Issues .listIssues {
+    height: 25%;
+    padding-top: 2px;
+    font-size: 0.8rem;
+  }
+
+  .grid-content .option:not(:first-of-type) {
+    margin-top: 1%;
+  }
+
+  .grid-content .backlogNews div {
+    height: 33%;
+  }
+  .grid-content .backlogNews div h1 {
+    font-size: 0.8rem;
+  }
+
+  .grid-content .backlogNews div p {
+    font-size: 0.7rem;
+  }
+
+  .grid-content .recent .option div {
+    width: 4%;
+    height: 100%;
+  }
+
+  .grid-content .recent .option div p {
+    display: none;
+  }
+
+  .grid-content .recent .option div img {
+    width: 60%;
+    height: 60%;
+    margin: 20%;
+  }
+  .grid-content .recent .inforRecent .dateRecent {
+    padding: 0.2rem;
+  }
+
+  .grid-content .recent .inforRecent .dateRecent p {
+    font-size: 0.8rem;
+  }
+
+  .grid-content .recent .inforRecent {
+    height: 30%;
+  }
+
+  .grid-content .recent .inforRecent .detailRecent .memberEdit img {
+    width: 5%;
+    height: 120%;
+  }
+  .grid-content .recent .inforRecent .detailRecent .memberEdit h3 {
+    font-size: 0.7rem;
+  }
+
+  .grid-content .recent .inforRecent .detailRecent .detailEdit div img {
+    width: 4%;
+  }
+}
+
+@media screen and (max-width: 1370px) and (max-height: 630px) {
+  .grid-content .backlogNews {
+    margin-top: 5px;
+  }
+  .grid-content .recent .option p {
+    padding: 0.1rem;
+    font-size: 0.8rem;
+  }
+  .grid-content .recent .inforRecent .dateRecent p {
+    padding: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .grid-content .option h1 {
+    font-size: 0.8rem;
+  }
+
+  .grid-content .option div:not(.button) {
+    height: 90%;
+  }
+
+  .grid-content .option .button {
+    height: 90%;
+  }
+
+  .grid-content .option .button i {
+    padding: 0.15rem;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .grid-content .option .gantt p,
+  .grid-content .option .batch p,
+  .grid-content .option .calendar p {
+    display: none;
+  }
+  .grid-content .option .gantt,
+  .grid-content .option .batch,
+  .grid-content .option .calendar {
+    width: 6%;
+  }
+
+  .grid-content .option .button i {
+    padding: 0.15rem;
+  }
+
+  .grid-content .option div:not(.button) i {
+    padding: 0.15rem;
+  }
+
+  .grid-content .recent .option p {
+    padding: 0.2rem;
+  }
+
+  .grid-content .backlogNews div h1 {
+    font-size: 0.8rem;
+  }
+  .grid-content .recent .inforRecent .detailRecent .memberEdit p {
+    font-size: 0.7rem;
+  }
+
+  .grid-content .recent .inforRecent .detailRecent .memberEdit h3 {
+    font-size: 0.7rem;
+  }
+
+  .grid-content .recent .inforRecent .detailRecent .memberEdit img {
+    width: 7%;
+    height: 90%;
+  }
+
+  .areaAdmin .company {
+    width: 30%;
+  }
+
+  .grid-content .recent .option div {
+    width: 6%;
+  }
+
+  .grid-content .recent .option div p {
+    display: none;
+  }
+
+  .grid-content .recent .option div img {
+    width: 60%;
+    height: 60%;
+    margin: 20%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .project {
+    height: 35%;
+  }
+
+  .grid-content .option .button {
+    width: 7%;
+  }
+
+  .grid-content .option .button i {
+    padding: 0.1rem;
+  }
+  .grid-content .option .gantt,
+  .grid-content .option .batch,
+  .grid-content .option .calendar {
+    width: 7%;
+  }
+
+  .grid-content .option div:not(.button) i {
+    padding: 0.15rem 0.2rem;
+  }
+
+  .grid-content .recent .option div {
+    width: 7%;
+  }
+  .grid-content .recent .inforRecent .detailRecent .memberEdit img {
+    width: 7%;
+    height: 80%;
+  }
+  .grid-content .optionBar {
+    column-gap: 0.4rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .grid-content .Issues .event div label {
+    font-size: 0.7rem;
+  }
+
+  .grid-content .optionBar h1 {
+    font-size: 0.8rem;
+  }
+
+  .grid-content .optionBar p {
+    font-size: 0.7rem;
+  }
+  .grid-content .recent .inforRecent .detailRecent .detailEdit div {
+    width: 90%;
+  }
+  .areaAdmin .company {
+    height: 90%;
+  }
+
+  .grid-content .Issues .event div a {
+    margin-left: 8px;
+  }
+
+  .grid-content .option .button {
+    width: 8%;
+  }
+
+  .grid-content .option div:not(.button) i {
+    padding: 0.1rem;
+  }
+
+  .grid-content .backlogNews div {
+    height: 30%;
+  }
+
+  .grid-content .backlogNews div p {
+    font-size: 0.7rem;
+  }
+
+  .grid-content .recent .inforRecent .detailRecent .memberEdit img {
+    width: 7%;
+    height: 70%;
+  }
+  .grid-content .Issues .navbarIssues p {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .project {
+    height: 35%;
+  }
+
+  .caption h3 {
+    font-size: 1rem;
+  }
+  .caption p {
+    font-size: 0.7rem;
+  }
+
+  .functionAdmin {
+    height: 16vh;
+  }
+  .grid-content .Issues .event div a {
+    margin-left: 0;
+    font-size: 0.7rem;
+  }
+
+  .grid-content .option .gantt,
+  .grid-content .option .batch,
+  .grid-content .option .calendar {
+    width: 8%;
+  }
+
+  .grid-content .recent .option div {
+    width: 8%;
+  }
+  .grid-content .recent .inforRecent .detailRecent .detailEdit div {
+    margin-left: 5%;
+  }
+
+  .grid-content .recent .inforRecent .detailRecent .detailEdit div p {
+    font-size: 0.7rem;
+  }
+
+  .grid-content .recent .inforRecent .detailRecent .memberEdit img {
+    width: 7%;
+    height: 60%;
+  }
+  .grid-content .recent .inforRecent .dateRecent p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .contentAdmin {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .areaAdmin .company {
+    height: 80%;
+  }
+  .grid-content .option .button i {
+    padding: 0.1rem 0rem;
+  }
+  .grid-content .recent .inforRecent .detailRecent .detailEdit div h3 {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .project {
+    height: 30%;
+  }
+  .grid-content .recent .inforRecent .detailRecent .detailEdit div h3 {
+    display: none;
+  }
+  .grid-content .Issues .event {
+    height: 45%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .project {
+    height: 25%;
+  }
+  .grid-content .recent .inforRecent .detailRecent .detailEdit div h3 {
+    display: none;
+  }
+  .grid-content .Issues .event {
+    height: 45%;
+  }
+
+  .grid-content .optionBar .company {
+    width: 12%;
+  }
+  .grid-content .option .button {
+    width: 10%;
+  }
+  .grid-content .option .gantt,
+  .grid-content .option .batch,
+  .grid-content .option .calendar {
+    width: 10%;
+  }
+
+  .grid-content .recent .option div {
+    width: 10%;
+  }
+  .areaAdmin .company {
+    height: 60%;
+    width: 35%;
+  }
+}
+*/

@@ -1,0 +1,1009 @@
+.viewIssue {
+  width: 89%;
+  height: 100vh;
+}
+
+.viewIssue .event div:not(div:last-of-type),
+.viewIssue .event a,
+.viewIssue .event .hide {
+  display: none;
+}
+
+.viewIssue .event {
+  justify-content: right;
+  margin-right: 2%;
+}
+
+.viewIssue .detailViewIssue {
+  width: 96%;
+  height: 92%;
+  margin: 1% 2%;
+  display: block;
+}
+
+.viewIssue .detailViewIssue .titleIssue {
+  width: 100%;
+  height: 100%;
+}
+
+.detailViewIssue .typeIssue {
+  width: 100%;
+  height: 5%;
+}
+
+.floatingLeft {
+  float: left;
+}
+
+.floatingRight {
+  float: right;
+}
+
+.detailViewIssue .typeIssue a {
+  width: auto;
+  height: 60%;
+  padding: 0.1rem 0.6rem;
+  border-radius: 20px;
+  background-color: #a1af2f;
+  color: white;
+  margin-top: 3px;
+}
+.detailViewIssue .typeIssue h5 {
+  font-weight: 500;
+  padding-top: 6px;
+  margin: 0 10px;
+}
+
+.detailViewIssue .typeIssue div {
+  height: 70%;
+  width: 2%;
+  background-color: white;
+  float: left;
+  border-radius: 50%;
+  border: 1px solid #bbbbc3;
+}
+
+.detailViewIssue .typeIssue div img {
+  height: 60%;
+  width: 60%;
+  margin: 20%;
+}
+
+.detailViewIssue .typeIssue p {
+  font-size: 1rem;
+  color: red;
+  margin: 3px 5px;
+}
+
+.detailViewIssue .typeIssue a:last-of-type {
+  height: 60%;
+  width: 8%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.detailViewIssue .navbarViewIssue {
+  width: 100%;
+  height: 5%;
+}
+.detailViewIssue .navbarViewIssue h1 {
+  font-size: 1.4rem;
+}
+
+.detailViewIssue .navbarViewIssue div {
+  width: auto;
+  height: 100%;
+  display: flex;
+}
+
+.detailViewIssue .navbarViewIssue div a {
+  height: 80%;
+  padding: 0.3rem 0.6rem;
+  background-color: white;
+  display: flex;
+  border: 1px solid #bbbbc3;
+  border-radius: 20px;
+  color: #333333;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+.detailViewIssue .navbarViewIssue div a:hover {
+  background-color: #d9d9d9;
+}
+
+.navbarViewIssue div a img {
+  height: 80%;
+  margin: 0.2rem 0.2rem 0.2rem 0;
+}
+.navbarViewIssue div a i {
+  font-size: 1rem;
+  margin: 0.2rem 0.2rem 0.2rem 0;
+}
+
+.navbarViewIssue div a p {
+  margin: 0;
+  padding: 0;
+}
+
+.detailViewIssue .navbarViewIssue div a:last-of-type {
+  border-radius: 50%;
+  padding: 0.2rem 0.3rem;
+}
+
+.detailViewIssue .navbarViewIssue div a:last-of-type img {
+  margin: 0.2rem 0.1rem 0.2rem;
+}
+
+.detailViewIssue .contentDetailIssue {
+  width: 100%;
+  height: 45%;
+  background-color: white;
+  padding: 0.6rem 2%;
+  border-radius: 5px;
+  border: 1px solid #bbbbc3;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.detailViewIssue .contentDetailIssue .inforIssue {
+  width: 100%;
+  height: 15%;
+  transition: 1s;
+}
+
+.contentDetailIssue .inforIssue img {
+  height: 80%;
+  width: 3%;
+  margin: 0.2rem 0.6rem 0.4rem 0;
+}
+.contentDetailIssue .inforIssue .inforDetail {
+  display: block;
+  width: 20%;
+}
+.inforIssue .inforDetail h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.inforIssue .inforDetail p {
+  font-size: 0.8rem;
+  color: #838388;
+  font-weight: 300;
+}
+
+.contentDetailIssue .inforIssue div a {
+  height: 80%;
+  padding: 0.3rem 0.6rem;
+  background-color: #f5f5f5;
+  display: flex;
+  border: 1px solid #bbbbc3;
+  border-radius: 20px;
+  color: #808080;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+.contentDetailIssue .inforIssue div a img {
+  height: 80%;
+  margin: 0.2rem 0.2rem 0.2rem 0;
+}
+.contentDetailIssue .inforIssue div a i {
+  font-size: 1rem;
+  margin: 0.1rem 0.2rem 0.2rem 0;
+}
+
+.contentDetailIssue .inforIssue div a p {
+  margin: 0;
+  padding: 0;
+}
+
+.detailViewIssue .contentDetailIssue .text {
+  width: 100%;
+  height: 50%;
+  padding: 0.4rem;
+  font-size: 0.8rem;
+  overflow: hidden;
+  white-space: pre-wrap;
+}
+
+.detailViewIssue .contentDetailIssue .assignee,
+.detailViewIssue .contentDetailIssue .category,
+.detailViewIssue .contentDetailIssue .resolution {
+  width: 45%;
+  height: 10%;
+  padding: 0.4rem;
+  border-bottom: 1px solid #bbbbc3;
+  color: #bbbbc3;
+  display: flex;
+  column-gap: 20%;
+}
+
+.detailViewIssue .contentDetailIssue .assignee p,
+.detailViewIssue .contentDetailIssue .category p,
+.detailViewIssue .contentDetailIssue .resolution p {
+  font-size: 0.8rem;
+}
+
+.detailViewIssue .contentDetailIssue .assignee h5,
+.detailViewIssue .contentDetailIssue .category h5,
+.detailViewIssue .contentDetailIssue .resolution h5 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #333333;
+}
+
+.detailViewIssue .contentDetailIssue .assignee,
+.detailViewIssue .contentDetailIssue .category {
+  border-top: 1px solid #bbbbc3;
+  margin-top: 5px;
+}
+
+.contentDetailIssue .scrollDetail {
+  width: 100%;
+  text-align: center;
+  height: 5%;
+  margin-top: 25px;
+}
+
+.contentDetailIssue .scrollDetail img {
+  width: 1.5%;
+  cursor: pointer;
+}
+
+.contentDetailIssue .assignee div {
+  display: flex;
+}
+
+.contentDetailIssue .assignee div h5 {
+  padding: 0.2rem;
+}
+
+.detailViewIssue .contentComment {
+  width: 100%;
+  height: 3%;
+  margin-top: 2%;
+  display: flex;
+}
+
+.contentComment div {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding: 0rem;
+}
+.contentComment div h3 {
+  margin: 0;
+  font-size: 0.8rem;
+}
+
+.contentComment div a,
+.contentComment div p {
+  font-size: 0.8rem;
+}
+.contentComment div a {
+  width: 10%;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #2c9a7a;
+  color: white;
+  cursor: pointer;
+  padding: 0.2rem;
+}
+
+.contentComment div:last-child {
+  column-gap: 0.4rem;
+  justify-content: right;
+}
+
+.contentComment div:last-child div {
+  width: 3.3%;
+  height: 100%;
+  background-color: white;
+  border: 1px solid #bbbbc3;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  padding: 0.1rem 0.2rem;
+  cursor: pointer;
+}
+
+.contentComment div:last-child div:hover {
+  background-color: #2c9a7a;
+  color: white;
+  border: none;
+}
+
+.contentComment div:last-child div i {
+  font-size: 1.4rem;
+}
+
+.detailViewIssue .listComment {
+  width: 100%;
+  height: auto;
+  max-height: 45%;
+  border: 1px solid #bbbbc3;
+  border-radius: 5px;
+  background-color: white;
+  margin-top: 5px;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.listComment .detailComment {
+  width: 100%;
+  padding: 0.4rem 0.8rem 1.2rem 0.8rem;
+  transition: 1s;
+}
+
+.listComment .detailComment .inforIssue {
+  width: 100%;
+  height: 20%;
+}
+
+.detailComment .inforIssue img {
+  height: 90%;
+  width: 2%;
+  margin: 0.2rem 0.6rem 0.4rem 0;
+}
+
+.detailComment .inforIssue .inforDetail {
+  display: block;
+  width: 20%;
+}
+.detailComment .inforIssue .inforDetail h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.detailComment .inforIssue .inforDetail p {
+  font-size: 0.8rem;
+  color: #838388;
+  font-weight: 300;
+}
+
+.detailComment .inforIssue a {
+  height: 90%;
+  padding: 0.25rem 0.6rem;
+  background-color: #f5f5f5;
+  display: flex;
+  border: 1px solid #bbbbc3;
+  border-radius: 20px;
+  color: #808080;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+.detailComment .inforIssue a i {
+  font-size: 1rem;
+  margin: 0.2rem 0.2rem 0.2rem 0;
+}
+
+.detailComment .inforIssue a p {
+  margin: 0;
+  padding: 0;
+}
+
+.detailComment .inforIssue a:first-of-type {
+  width: 2.1%;
+  height: 32px;
+  margin: 0;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.detailComment .inforIssue a:first-of-type img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0; 
+}
+
+.detailComment .text {
+  width: 94%;
+  height: 77%;
+  padding: 0.4rem;
+  font-size: 0.7rem;
+  overflow: hidden;
+  white-space: pre-wrap;
+}
+
+.detailComment .text ul {
+  list-style-type: circle;
+  display: block;
+}
+.detailComment .text ul i {
+  font-size: 0.6rem;
+}
+
+.viewIssue .editComment {
+  width: 89%;
+  height: 35%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  z-index: 100;
+  border-top: 2px solid #bbbbc3;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.editComment .detailEditComment {
+  width: 98%;
+  height: 80%;
+  margin: 0% 1%;
+  display: flex;
+  position: relative;
+  column-gap: 0.67rem;
+}
+
+.editComment .detailEditComment .link {
+  width: 2%;
+  height: 13%;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  margin-top: 8%;
+  text-align: center;
+  padding: 0.1rem;
+  border: 1px solid #bbbbc3;
+  font-size: 1.4rem;
+  cursor: pointer;
+}
+.editComment .detailEditComment .link:hover {
+  background-color: white;
+}
+
+.editComment .detailEditComment .shink {
+  width: 100%;
+  height: 7%;
+  position: absolute;
+  top: 0;
+  text-align: center;
+  color: #808080;
+}
+.editComment .detailEditComment .shink span {
+  cursor: pointer;
+}
+
+.editComment .detailEditComment .contentComment {
+  width: 70%;
+  height: 70%;
+  margin: 1.5% 0%;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+  border: 1px solid #bbbbc3;
+}
+
+.detailEditComment .contentComment .textComment {
+  width: 100%;
+  height: 85%;
+  margin: 0;
+  padding: 0.4rem;
+  font-size: 0.7rem;
+  border: 1px solid #bbbbc3;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.detailEditComment .contentComment .format {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  padding: 0;
+}
+
+.detailEditComment .contentComment.format div:first-child {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  column-gap: 0.4rem;
+}
+
+.detailEditComment .contentComment .format div:last-child {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  column-gap: 0.8rem;
+  justify-content: right;
+  padding: 0;
+  position: relative;
+}
+
+.detailEditComment .contentComment .format div img {
+  width: 18px;
+  height: 75%;
+  cursor: pointer;
+  padding: 0.1rem 0;
+}
+
+.detailEditComment .contentComment .format div i,
+.detailEditComment .contentComment .format div b,
+.detailEditComment .contentComment .format div strike {
+  font-size: 0.9rem;
+}
+
+.detailEditComment .contentComment .format div i {
+  right: 29%;
+}
+
+.detailEditComment .contentComment .format div b {
+  right: 32%;
+}
+.detailEditComment .contentComment .format div strike {
+  right: 25%;
+}
+
+.detailEditComment .contentComment input {
+  width: 100%;
+  height: 18%;
+  margin-top: 5px;
+  padding: 0.2rem;
+  border-radius: 5px;
+  border: 1px solid #bbbbc3;
+}
+
+.detailEditComment .selectComment {
+  width: 22%;
+  height: 100%;
+}
+
+.detailEditComment .selectComment label,
+.detailEditComment .selectComment select {
+  width: 100%;
+  height: 14%;
+  border-radius: 5px;
+}
+
+.detailEditComment .selectComment label {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.detailEditComment .selectComment label p {
+  color: #2c9a7a;
+  font-size: 0.7rem;
+  padding-top: 5px;
+  font-weight: 500;
+}
+
+.detailEditComment .selectComment select {
+  margin-bottom: 7px;
+}
+
+.detailEditComment .selectComment input {
+  display: block;
+  width: 40%;
+  height: 12%;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+.editComment .submit-comment {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  column-gap: 0.6rem;
+}
+
+.editComment .submit-comment button {
+  width: 8%;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.editComment .submit-comment button:first-child {
+  color: #333333;
+  background-color: #e5e5e5;
+  border: 1px solid #adadad;
+}
+
+.editComment .submit-comment button:first-child:hover {
+  background-color: white;
+}
+
+.editComment .submit-comment button:last-child {
+  color: white;
+  background-color: #2c9a7a;
+  border: none;
+}
+
+.editComment .submit-comment button:last-child:hover {
+  transform: scale(1.05);
+}
+
+.editComment .submit-comment button:nth-of-type(2) {
+  color: #2c9a7a;
+  background-color: white;
+  border: 2px solid #b5b5b5;
+}
+
+.editComment .submit-comment button:nth-of-type(2):hover {
+  background-color: #198f7a;
+  color: white;
+}
+
+.detailEditComment .selectComment select:focus,
+.detailEditComment .selectComment input:focus,
+.detailEditComment .contentComment input:focus {
+  border: 2px solid #198f7a;
+  background-color: #fcfade;
+}
+
+.detailEditComment .button-showEditComment {
+  width: 9%;
+  height: 100%;
+  margin: 0.2rem;
+  display: flex;
+  padding: 0.4rem;
+  cursor: pointer;
+  justify-content: center;
+  border-left: 1px solid #bbbbc3;
+}
+
+.detailEditComment .button-showEditComment h5 {
+  padding: 0.2rem;
+}
+
+.detailEditComment .button-showEditComment:hover {
+  background-color: #198f7a;
+  color: white;
+}
+
+.detailViewIssue .addnewComment {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  column-gap: 0.4rem;
+  justify-content: center;
+  padding: 0.4rem;
+  font-size: 0.8rem;
+}
+
+.detailViewIssue .addnewComment a {
+  color: #198f7a;
+  cursor: pointer;
+}
+.detailViewIssue .addnewComment a:hover {
+  text-decoration: underline;
+}
+
+.listComment div:last-child .detailComment {
+  background-color: #fcfade;
+}
+.listComment div hr {
+  width: 96%;
+  margin: 0rem 2%;
+  color: #808080;
+}
+
+.listComment div:first-child hr {
+  display: none;
+}
+
+.detailViewIssue hr {
+  margin-top: 5px;
+}
+
+/*Responsive*/
+@media screen and (max-width: 1700px) {
+  .detailEditComment .button-showEditComment {
+    width: 10%;
+  }
+  .contentComment div:last-child div {
+    height: 100%;
+  }
+  .contentComment div a {
+    padding: 0.2rem;
+  }
+  .editComment .detailEditComment .link {
+    width: 2.5%;
+  }
+}
+
+@media screen and (max-width: 1550px) and (max-height: 750px) {
+  .detailViewIssue .typeIssue a {
+    padding: 0rem 0.6rem;
+    height: 70%;
+  }
+  .detailViewIssue .typeIssue a:last-of-type {
+    height: 70%;
+  }
+  .detailViewIssue .typeIssue p {
+    font-size: 0.8rem;
+  }
+  .detailViewIssue .navbarViewIssue div a {
+    padding: 0.1rem 0.6rem;
+  }
+  .contentDetailIssue .assignee div h5 {
+    padding: 0rem 0.2rem;
+  }
+  .contentComment div a {
+    font-size: 0.7rem;
+    padding: 0.1rem;
+  }
+  .contentComment div:last-child {
+    padding: 0;
+  }
+  .contentComment div:last-child div {
+    width: 4%;
+    padding: 0.1rem;
+  }
+  .editComment .detailEditComment .link {
+    padding: 0;
+    font-size: 1.2rem;
+  }
+  .detailEditComment .button-showEditComment {
+    padding: 0.2rem;
+    margin: 0.1rem;
+    font-size: 0.8rem;
+  }
+  .contentDetailIssue .scrollDetail {
+    margin-top: 18px;
+  }
+  .detailEditComment .contentComment .format div b {
+    right: 44%;
+    bottom: 3px;
+  }
+  .detailEditComment .contentComment .format div i {
+    right: 40%;
+    bottom: 3px;
+  }
+  .detailEditComment .contentComment .format div strike {
+    right: 35%;
+    bottom: 3px;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .contentDetailIssue .inforIssue img {
+    height: 80%;
+  }
+  .detailViewIssue .typeIssue div {
+    width: 2.5%;
+  }
+  .contentComment div:last-child div {
+    width: 4%;
+  }
+  .detailEditComment .button-showEditComment {
+    width: 11%;
+  }
+  .editComment .detailEditComment .link {
+    width: 2.5%;
+  }
+
+}
+
+@media screen and (max-width: 1450px) {
+  .contentDetailIssue .inforIssue img {
+    height: 60%;
+  }
+  .detailViewIssue .typeIssue div {
+    width: 2.5%;
+  }
+  .contentComment div:last-child div {
+    width: 4%;
+  }
+  .detailEditComment .button-showEditComment {
+    width: 12%;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .contentDetailIssue .inforIssue img {
+    height: 60%;
+  }
+  .detailViewIssue .typeIssue div {
+    width: 2.5%;
+  }
+  .contentComment div:last-child div {
+    width: 4%;
+  }
+  .detailEditComment .button-showEditComment {
+    width: 12%;
+  }
+  .editComment .detailEditComment .link {
+    width: 2.5%;
+  }
+}
+
+@media screen and (max-width: 1370px) and (max-height: 630px) {
+  .detailViewIssue .typeIssue a:last-of-type {
+    height: 75%;
+  }
+  .detailViewIssue .typeIssue a {
+    height: 75%;
+  }
+  .detailViewIssue .typeIssue div {
+    height: 90%;
+  }
+  .detailViewIssue .navbarViewIssue div a {
+    height: 90%;
+  }
+  .detailViewIssue .navbarViewIssue h1 {
+    font-size: 1.2rem;
+  }
+  .contentDetailIssue .inforIssue img {
+    height: 100%;
+  }
+  .contentComment div:last-child div {
+    width: 3%;
+  }
+  .contentComment div:last-child div i {
+    font-size: 1rem;
+  }
+  .detailComment .inforIssue a:first-of-type {
+    width: 3%;
+  }
+  .detailEditComment .contentComment .textComment {
+    padding: 0.1rem 0.2rem;
+  }
+  .detailEditComment .contentComment .format div img {
+    height: 80%;
+    width: 15px;
+  }
+  .detailEditComment .contentComment .format div i,
+  .detailEditComment .contentComment .format div b,
+  .detailEditComment .contentComment .format div strike {
+    font-size: 0.7rem;
+  }
+  .editComment .detailEditComment .link {
+    height: 16%;
+  }
+  .detailEditComment .selectComment select {
+    margin-bottom: 1px;
+  }
+  .editComment .submit-comment {
+    margin-top: 5px;
+  }
+  .editComment .submit-comment button {
+    font-size: 0.8rem;
+  }
+  .contentDetailIssue .scrollDetail {
+    margin-top: 5px;
+  }
+  .detailViewIssue .contentDetailIssue .assignee,
+  .detailViewIssue .contentDetailIssue .category,
+  .detailViewIssue .contentDetailIssue .resolution {
+    padding: 0.1rem 0.4rem;
+  }
+  .detailEditComment .button-showEditComment img {
+    margin-top: 3px;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .detailViewIssue .typeIssue div {
+    width: 3%;
+  }
+  .contentComment div:last-child div {
+    width: 5%;
+  }
+  .detailEditComment .button-showEditComment {
+    width: 13%;
+  }
+  .editComment .detailEditComment .link {
+    width: 3%;
+    margin: 10% 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .contentComment div a {
+    width: 15%;
+  }
+  .detailEditComment .button-showEditComment h5 {
+    font-size: 0.7rem;
+  }
+  .detailEditComment .button-showEditComment img {
+    width: 15%;
+    height: 80%;
+  }
+  .detailComment .inforIssue a {
+    height: 80%;
+    padding: 0.2rem 0.4rem;
+  }
+  .detailComment .inforIssue a:first-of-type {
+    width: 4%;
+  }
+
+  .editComment .detailEditComment .contentComment {
+    width: 60%;
+    margin: 2% 0;
+  }
+  .detailEditComment .selectComment {
+    width: 30%;
+  }
+  .editComment .submit-comment button {
+    width: 10%;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .viewIssue .editComment {
+    width: 94%;
+  }
+  .viewIssue {
+    width: 94%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .editComment .detailEditComment .link {
+    font-size: 1.2rem;
+    width: 4%;
+    margin: 15% 0;
+  }
+  .detailEditComment .button-showEditComment {
+    width: 14%;
+    padding: 0.2rem 0.1rem;
+  }
+  .contentComment div:last-child div {
+    width: 6%;
+  }
+  .detailViewIssue .navbarViewIssue {
+    height: 4%;
+  }
+  .detailViewIssue .navbarViewIssue div a {
+    padding: 0.1rem 0.4rem;
+  }
+  .detailViewIssue .navbarViewIssue h1 {
+    font-size: 1rem;
+  }
+  .editComment .detailEditComment {
+    column-gap: 0.4rem;
+  }
+  .editComment .detailEditComment .contentComment {
+    margin: 3% 0;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .editComment .detailEditComment .link {
+    width: 4.5%;
+    margin: 18% 0;
+  }
+  .detailViewIssue .typeIssue div {
+    width: 4%;
+  }
+  .contentDetailIssue .inforIssue img {
+    height: 50%;
+  }
+  .contentComment div a {
+    font-size: 0.7rem;
+  }
+  .detailViewIssue .typeIssue a:last-of-type {
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .editComment .detailEditComment .contentComment {
+    width: 48%;
+  }
+  .detailEditComment .selectComment {
+    width: 35%;
+  }
+
+  .detailEditComment .selectComment label,
+  .detailEditComment .selectComment select {
+    font-size: 0.7rem;
+  }
+  .detailEditComment .selectComment label p {
+    font-size: 0.6rem;
+  }
+  .contentComment div a {
+    width: 18%;
+  }
+  .contentComment div:last-child div {
+    width: 8%;
+  }
+}

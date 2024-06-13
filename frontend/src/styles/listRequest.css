@@ -1,0 +1,186 @@
+.listRequest {
+  width: 89%;
+  height: 100vh;
+}
+
+.listRequest .event div:not(div:last-of-type),
+.listRequest .event a,
+.listRequest .event .hide {
+  display: none;
+}
+
+.listRequest .event {
+  justify-content: right;
+  margin-right: 2%;
+}
+
+.listRequest .contentListRequest {
+  width: 96%;
+  height: 94%;
+  margin: 2%;
+  display: block;
+  border: 1px solid #cecece;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.contentListRequest .header {
+  height: 5%;
+  width: 100%;
+  background-color: #4caf93;
+  display: flex;
+}
+
+.contentListRequest .header select {
+  width: 15%;
+  height: 80%;
+  margin: 0.3rem 1rem;
+  border-radius: 5px;
+  border: 1px solid #b1b1b1;
+  padding: 0.2rem 0.4rem;
+  color: #4caf93;
+  font-weight: 600;
+}
+
+.contentListRequest .header .header-totalStatus {
+  width: 82%;
+  height: 100%;
+  display: flex;
+  justify-content: right;
+}
+
+.header .header-totalStatus div {
+  width: 12%;
+  height: 100%;
+  padding: 0.6rem;
+  display: flex;
+  column-gap: 0.4rem;
+  color: white;
+}
+
+.header .header-totalStatus div h5 {
+  padding: 0.15rem;
+}
+
+.contentListRequest .listRequest-content {
+  width: 100%;
+  height: 95%;
+  display: block;
+}
+
+.contentListRequest .listRequest-content .detailRequest {
+  width: 100%;
+  height: 6%;
+  display: flex;
+  padding: 0.4rem;
+  border: 1px solid #b1b1b1;
+}
+
+.listRequest-content .detailRequest h3 {
+  width: 15%;
+  height: 100%;
+  margin: 0;
+  text-align: center;
+  padding: 0.4rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+  overflow: hidden;
+}
+
+.listRequest-content .detailRequest img:last-of-type {
+  width: 2%;
+  height: 80%;
+  margin-top: 0.2rem;
+  cursor: pointer;
+}
+
+.listRequest-content .detailRequest i {
+  width: auto;
+  font-size: 2rem;
+  color: red;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.listRequest-content .detailRequest i:hover {
+  color: #4caf93;
+}
+
+/* Responsive */
+@media screen and (max-width: 1550px) and (max-height: 750px) {
+  .listRequest-content .detailRequest i {
+    font-size: 1.4rem;
+  }
+  .header .header-totalStatus div p {
+    font-size: 0.8rem;
+  }
+  .header .header-totalStatus div h5 {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .header .header-totalStatus div {
+    width: 15%;
+  }
+}
+
+@media screen and (max-width: 1380px) and (max-height: 630px) {
+  .listRequest-content .detailRequest h3 {
+    padding: 0rem;
+    font-size: 0.7rem;
+  }
+  .header .header-totalStatus div p ,.header .header-totalStatus div h5{
+    font-size: 0.7rem;
+  }
+  .header .header-totalStatus div h5 {
+   padding: 0;
+  }
+  .listRequest-content .detailRequest img:last-of-type {
+    height: 100%;
+    margin: 0;
+  }
+  .listRequest-content .detailRequest i {
+    font-size: 1.1rem;
+  }
+  .contentListRequest .header select {
+    margin: 0.2rem 0.6rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header .header-totalStatus div {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .listRequest-content .detailRequest img:last-of-type {
+    width: 3%;
+  }
+  .header .header-totalStatus div p ,.header .header-totalStatus div h5{
+    font-size: 0.8rem;
+  }
+}
+
+
+@media screen and (max-width: 750px) {
+  .listRequest-content .detailRequest img:last-of-type {
+    width:4%;
+  }
+  .header .header-totalStatus div {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .header .header-totalStatus div p ,.header .header-totalStatus div h5{
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .listRequest-content .detailRequest h3 {
+    font-size: 0.7rem;
+  }
+}

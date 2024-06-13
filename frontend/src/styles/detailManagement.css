@@ -1,0 +1,596 @@
+.content {
+  width: 100%;
+  display: flex;
+}
+
+.detailContent {
+  width: 89%;
+  height: 85vh;
+  background-color: #f0f0f0;
+}
+
+.detail {
+  width: 96%;
+  height: 100%;
+  margin: 2%;
+  display: block;
+}
+
+.navbarAddUser {
+  width: 100%;
+  height: 5%;
+  display: flex;
+  border-bottom: 1px solid #bbbbc3;
+  column-gap: 1rem;
+}
+
+.navbarAddUser button {
+  width: 7%;
+  height: 100%;
+  background-color: white;
+  border: none;
+  color: #2c9a7a;
+  font-weight: 600;
+  text-align: center;
+}
+.navbarAddUser button:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #2c9a7a;
+}
+
+.userForm {
+  width: 80%;
+  height: 100%;
+  display: flex;
+}
+
+.userForm .infor-container {
+  width: 50%;
+  height: 100%;
+  margin: 0%;
+  background-color: white;
+  position: relative;
+  border-radius: 10px;
+}
+
+.userForm .infor-container:first-child {
+  background-color: #f0f0f0;
+  height: 100%;
+  margin: 0;
+}
+
+.userForm .input-container input,
+.userForm .input-container select {
+  width: 90%;
+  padding: 2% 2%;
+  margin: 5% 5% 0%;
+  border: 2px solid #2c9a7a;
+  border-radius: 10px;
+  color: #2c9a7a;
+  display: block;
+  font-size: 1rem;
+}
+
+.userForm .infor-container .input-container {
+  margin-bottom: 3%;
+}
+
+.userForm .infor-container select {
+  margin-top: 0;
+  cursor: pointer;
+}
+
+.userForm .infor-container input::placeholder {
+  color: #2c9a7a;
+}
+
+.userForm .input-container label {
+  color: #2c9a7a;
+  font-weight: 500;
+  margin-left: 5%;
+}
+.userForm .infor-container button {
+  width: 30%;
+  height: 7%;
+  background-color: #94caac;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  position: absolute;
+  bottom: 5%;
+  right: 35%;
+}
+
+.detail button:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.userForm .avatar {
+  width: 40%;
+  height: 26%;
+  border-radius: 50%;
+  margin: 15% 30%;
+  background-color: #94caac;
+}
+
+.userForm .avatar img {
+  width: 60%;
+  margin: 15% 20%;
+}
+
+.userList {
+  width: 96%;
+  height: 88%;
+  margin: 2%;
+  border: 1px solid #bbbbc3;
+}
+
+.userList .parameterUser {
+  width: 100%;
+  display: flex;
+  height: 5%;
+  border-bottom: 1px solid #bbbbc3;
+  color: white;
+  background-color: #04aa6d;
+}
+
+.userList .parameterUser p {
+  font-size: 0.8rem;
+  color: white;
+}
+.parameterUser .eventUser {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  margin-right: 20%;
+}
+.parameterUser .eventUser a {
+  width: 33.33%;
+  text-align: center;
+  padding: 3% 1%;
+  cursor: pointer;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.parameterUser .eventUser a:hover {
+  color: white;
+  background-color: black;
+}
+
+.parameterUser select {
+  height: 90%;
+  width: 15%;
+  border-radius: 10px;
+  font-size: 0.8rem;
+  color: #04aa6d;
+  font-weight: 600;
+  margin: 2px 1% 0%;
+}
+
+.parameterUser .numberUser {
+  width: 11%;
+  height: 100%;
+  padding: 0.7rem 1rem;
+  display: flex;
+}
+
+.parameterUser .numberUser p {
+  font-weight: 600;
+}
+
+.parameterUser .numberUser h1 {
+  font-size: 0.8rem;
+  padding: 0px 2px;
+}
+
+.listUser {
+  width: 100%;
+  max-height: 95%;
+  border: 1px solid #bbbbc3;
+  background-color: white;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.detailListUser {
+  width: 100%;
+  display: flex;
+  padding: 0.4rem;
+  height: 5%;
+  border-bottom: 1px solid #bbbbc3;
+}
+
+.detailListUser img {
+  width: 2%;
+  margin-right: 1%;
+  height: 80%;
+}
+.detailListUser h1 {
+  font-size: 0.8rem;
+  width: 15%;
+  padding-top: 8px;
+  text-align: center;
+}
+
+.detailDepartment {
+  width: 96%;
+  height: 10%;
+  display: flex;
+  margin: 2% 2% 0%;
+  position: relative;
+  border: 1px solid #bbbbc3;
+  background-color: #04aa6d;
+}
+
+.detailDepartment .input-container {
+  width: 20%;
+  height: 100%;
+  margin: 1% 2%;
+}
+
+.detailDepartment label {
+  color: white;
+  font-weight: 600;
+  margin: 0;
+}
+
+.detailDepartment select {
+  width: 100%;
+  color: #04aa6d;
+  font-weight: 600;
+  margin: 0;
+  cursor: pointer;
+  padding: 0.4rem;
+}
+.detailDepartment input {
+  margin: 0;
+  width: 100%;
+  padding: 0.4rem;
+  color: #04aa6d;
+}
+
+.detailDepartment button {
+  position: absolute;
+  width: 10%;
+  top: 35%;
+  right: 5%;
+  padding: 0.6rem;
+  border: none;
+  background-color: #428bca;
+  color: white;
+  font-weight: 600;
+}
+
+.detailDepartment button:hover {
+  transition: 1s;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.listDepartment {
+  width: 96%;
+  height: 75%;
+  margin-left: 2%;
+  border: 1px solid #bbbbc3;
+  background-color: white;
+  display: block;
+}
+.listDepartment .detailListDepartment:first-of-type {
+  font-size: 0.8rem;
+  height: 8%;
+  background-color: #e0e0e2;
+  border: none;
+}
+.detailListDepartment {
+  display: flex;
+  height: 8%;
+  width: 100%;
+  padding: 1rem;
+  border-top: 1px solid #bbbbc3;
+  font-size: 1.4rem;
+}
+
+.detailListDepartment:last-of-type {
+  border-bottom: 1px solid #bbbbc3;
+}
+
+.detailListDepartment h1:first-child {
+  text-align: left;
+  width: 1%;
+}
+
+.detailListDepartment h1,
+.detailListDepartment p {
+  width: 30%;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.detailListDepartment i:first-of-type,
+.detailListUser i:first-of-type {
+  margin: 0% 1% 0% 5%;
+  color: #04aa6d;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.detailListUser i:last-of-type {
+  color: red;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.detailListDepartment i:hover,
+.detailListUser i:hover {
+  color: #ff8e01;
+}
+
+/*Responsive*/
+/* @media screen and (max-width: 1550px) and (max-height: 750px) {
+  .userForm .input-container input,
+  .userForm .input-container select {
+    padding: 0.4rem;
+    font-size: 0.8rem;
+  }
+  
+  .userForm .avatar {
+    width: 35%;
+  }
+
+  .detailListUser h1 {
+    padding-top: 0.2rem;
+  }
+  .parameterUser .numberUser {
+    padding: 0.4rem;
+  }
+  .detailListDepartment {
+    padding: 0.6rem 1rem;
+  }
+  .detailDepartment .input-container {
+    margin: 0.4rem 0.6rem;
+  }
+  .detailDepartment button {
+    top: 30%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .detailContent {
+    width: 93%;
+  }
+  .detailListUser h1 {
+    padding-top: 0.2rem;
+  }
+  .parameterUser .numberUser {
+    padding: 0.4rem;
+  }
+  .detailListDepartment {
+    padding: 0.6rem 1rem;
+  }
+  .detailDepartment .input-container {
+    margin: 0.4rem 0.6rem;
+  }
+  .detailDepartment button {
+    top: 30%;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .userForm .avatar {
+    height: 25%;
+  }
+
+  .userForm .infor-container:last-child {
+    height: 90%;
+  }
+
+  .parameterUser .eventUser {
+    margin-right: 35%;
+  }
+  .parameterUser .numberUser {
+    width: 15%;
+  }
+  .detailListUser h1 {
+    padding-top: 5px;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .userForm .avatar {
+    height: 22%;
+  }
+
+  .userForm .infor-container:last-child {
+    height: 85%;
+  }
+}
+
+@media screen and (max-width: 1370px) and (max-height: 768px) {
+  .userForm .infor-container:last-child {
+    height: 100%;
+  }
+  .userForm .avatar {
+    height: 30%;
+  }
+  .userForm .input-container input {
+    border: none;
+    border-bottom: 1px solid #04aa6d;
+    border-radius: 0;
+    padding: 1% 2%;
+    font-size: 0.8rem;
+  }
+
+  .userForm .input-container label {
+    font-size: 0.8rem;
+  }
+  .userForm .input-container select {
+    padding: 1% 2%;
+    font-size: 0.8rem;
+  }
+  .parameterUser .eventUser a {
+    font-size: 0.7rem;
+    padding: 3% 1%;
+  }
+  .parameterUser .numberUser {
+    width: 25%;
+    padding: 0.4rem;
+  }
+
+  .parameterUser .numberUser p,
+  .parameterUser .numberUser h1 {
+    font-size: 0.7rem;
+  }
+  .detailListUser h1 {
+    width: 25%;
+    font-size: 0.7rem;
+  }
+  .detailDepartment .input-container {
+    margin: 0.2rem 0.4rem;
+  }
+
+  .detailDepartment .input-container label {
+    font-size: 0.8rem;
+  }
+  .detailDepartment .input-container select,
+  .detailDepartment .input-container input {
+    padding: 0.2rem;
+  }
+  .detailDepartment button {
+    top: 25%;
+  }
+  .detailListDepartment {
+    padding: 0.4rem 1rem;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .userForm .avatar {
+    height: 19%;
+  }
+
+  .userForm .infor-container:last-child {
+    height: 80%;
+  }
+  .parameterUser .eventUser {
+    margin-right: 25%;
+  }
+  .parameterUser .numberUser {
+    width: 20%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .userForm .avatar {
+    height: 17%;
+  }
+
+  .userForm .infor-container:last-child {
+    height: 75%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .detailContent {
+    width: 94%;
+  }
+  .userForm {
+    width: 96%;
+  }
+  .parameterUser .eventUser {
+    margin-right: 15%;
+  }
+  .detailListUser h1 {
+    font-size: 0.7rem;
+  }
+  .detailListUser img {
+    width: 3%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .parameterUser .eventUser {
+    margin-right: 10%;
+  }
+  .parameterUser .numberUser {
+    width: 23%;
+  }
+  .detailListUser i:first-of-type {
+    margin: 0% 1% 0% 0%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .detailListUser {
+    height: 10%;
+  }
+  .userList .parameterUser p {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .userForm .avatar {
+    width: 50%;
+    height: 11%;
+  }
+  .userForm .infor-container:first-child {
+    width: 30%;
+  }
+
+  .userForm .infor-container:last-child {
+    width: 70%;
+    height: 80%;
+  }
+  .userList .parameterUser p {
+    font-size: 0.6rem;
+  }
+  .parameterUser .numberUser h1 {
+    font-size: 0.6rem;
+  }
+  .detailListUser h1 {
+    font-size: 0.6rem;
+  }
+  .detailDepartment button {
+    width: 20%;
+    top: 25%;
+  }
+  .detailDepartment .input-container {
+    width: 30%;
+  }
+  .detailListDepartment h1,
+  .detailListDepartment p {
+    font-size: 0.7rem;
+    word-wrap: break-word;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .userForm .avatar {
+    width: 50%;
+    height: 8%;
+  }
+  .detailListUser h1 {
+    width: 15%;
+    padding-top: 3px;
+    font-size: 0.55rem;
+    word-wrap: break-word;
+  }
+  .parameterUser .eventUser {
+    margin-right: 0%;
+  }
+  .parameterUser .eventUser a {
+    font-size: 0.6rem;
+    padding: 5% 1%;
+  }
+  .parameterUser .numberUser {
+    width: 25%;
+  }
+  .detailListDepartment h1 {
+    width: 25%;
+  }
+} */

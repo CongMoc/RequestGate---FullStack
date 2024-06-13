@@ -1,0 +1,219 @@
+.register {
+  width: 25%;
+  height: 80vh;
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid #4caf93;
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+
+.register h1 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 6% 10%;
+}
+
+.register input {
+  font-size: 0.8rem;
+  font-weight: 600;
+  width: 98%;
+  padding: 3% 1%;
+  margin-top: 2%;
+  border: none;
+  border-bottom: 1px solid #4caf93;
+  text-decoration: solid;
+  background-color: white;
+  color: #4caf93;
+}
+
+.register input::placeholder {
+  color: #4caf93;
+}
+
+.register select {
+  width: 100%;
+  display: block;
+  padding: 2%;
+  margin: 3% 0%;
+  color: #4caf93;
+  background-color: white;
+  border: 2px solid #4caf93;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.register form {
+  display: block;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.register button {
+  width: 100%;
+  padding: 3%;
+  margin-top: 10%;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  color: #4caf93;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid white;
+  background-color: #4caf93;
+  color: white;
+}
+
+.register button:hover {
+  border: none;
+  background-color: white;
+  color: #4caf93;
+}
+
+.register button {
+  margin: 0;
+}
+.register button:hover {
+  border: 2px solid #4caf93;
+}
+.register label {
+  color: #4caf93;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.back {
+  width: 10%;
+  margin: 3% 0% 0% 45%;
+  border: 2px solid #4caf93;
+  padding: 2.5% 3%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.back:hover {
+  transform: translateY(-5px);
+}
+
+/*Responsive*/
+@media screen and (max-width: 1650px) {
+  .register {
+    height: 70vh;
+  }
+  .back {
+    width: 11.5%;
+  }
+}
+
+@media screen and (max-width: 1550px) and (max-height: 750px) {
+  .back {
+    width: 11.5%;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .register {
+    height: 80vh;
+  }
+}
+ 
+@media screen and (max-width: 1450px) {
+  .register {
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .register {
+    height: 60vh;
+  }
+  .back {
+    width: 13%;
+  }
+}
+
+@media screen and (max-width: 1150px) {
+  .register {
+    width: 40%;
+    height: 75vh;
+  }
+  .back {
+    width: 11%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .register {
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .register {
+    width: 50%;
+    height: 70vh;
+    right: 3%;
+    top: 15%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .register {
+    width: 60%;
+    height: 70vh;
+    right: 15%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .register {
+    top: 10%;
+    right: 10%;
+    width: 80%;
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .register {
+    top: 0%;
+    right: 0%;
+    width: 100%;
+    height: 100%;
+    position: static;
+  }
+
+  .register h1 {
+    font-size: 2rem;
+  }
+
+  .register input {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 1%;
+  }
+
+  .register select {
+    margin: 2% 0%;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  .register button {
+    font-size: 1.6rem;
+  }
+  .register label {
+    font-size: 1.4rem;
+  }
+
+  .back {
+    width: 8%;
+    margin: 3% 0% 0% 46%;
+    padding: 2%;
+  }
+
+  .back img {
+    width: 80%;
+    height: 60%;
+  }
+}

@@ -1,0 +1,173 @@
+.bodyLogin {
+  height: 100vh;
+  width: 100%;
+  background-image: url("../images/backgroundLogin.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.login {
+  width: 25%;
+  height: 40vh;
+  position: absolute;
+  display: block;
+  top: 20%;
+  right: 6%;
+  background-color: #4caf93;
+  border-radius: 20px;
+  color: white;
+}
+
+.login form {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.login h1 {
+  font-size: 1.6rem;
+  margin-top: 10%;
+}
+
+.login h3 {
+  font-size: 0.8rem;
+  margin-bottom: 3%;
+}
+
+.login h1,
+h3 {
+  margin-left: 10%;
+}
+
+.input-container {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.login input {
+  font-size: 0.8rem;
+  font-weight: 600;
+  width: 98%;
+  padding: 3% 1%;
+  margin-top: 2%;
+  border: none;
+  border-bottom: 1px solid white;
+  text-decoration: solid;
+  background-color: #4caf93;
+  color: white;
+}
+
+.login input::placeholder {
+  color: white;
+}
+
+.login a {
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.login button {
+  width: 100%;
+  padding: 3%;
+  margin-top: 10%;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  color: #4caf93;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 2px solid white;
+  background-color: #4caf93;
+  color: white;
+}
+
+.login button:hover {
+  border: none;
+  background-color: white;
+  color: #4caf93;
+}
+
+@media screen and (max-width: 1024px) {
+  .bodyLogin {
+    height: 100%;
+    background-image: url("/images/loginPhone.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+/*Responsive*/
+@media screen and (max-width: 1550px) and (max-height: 750px) {
+  .login {
+    height: 45%;
+  }
+
+  .login form {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .login {
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .login {
+    width: 30%;
+    height: 40%;
+  }
+  .login h1 {
+    font-size: 1.2rem;
+  }
+  .login h3 {
+    font-size: 1.4em;
+  }
+
+  .login h1,
+  h3 {
+    margin-left: 30%;
+  }
+
+  .login input {
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+
+  .login a {
+    font-size: 1.4rem;
+  }
+
+  .login button {
+    font-size: 1.4rem;
+  }
+  .login h3,
+  .login a {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .login {
+    width: 40%;
+  }
+  .login .input-container {
+    margin-bottom: 10%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .login {
+    width: 50%;
+    top: 35%;
+    right: 25%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .login {
+    width: 80%;
+    top: 35%;
+    right: 10%;
+  }
+}
